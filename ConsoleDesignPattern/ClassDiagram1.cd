@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ConsoleDesignPattern.Factory">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAABAAAAAAAAAEAAAAAAAAAAAABAAAEEAAAAAABAA=</HashCode>
+      <FileName>Factory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleDesignPattern.EReader">
+    <Position X="9.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>EReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleDesignPattern.OLEDScreen" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>OLEDScreen.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="1.234" />
+  </Class>
+  <Class Name="ConsoleDesignPattern.FitnessWatch">
+    <Position X="7" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAEAAAAgAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>FitnessWatch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleDesignPattern.Program">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleDesignPattern.Phone">
+    <Position X="4" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMAAQAAAAAAAACEAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Phone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleDesignPattern.SingleApple">
+    <Position X="0.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAEEAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SingleApple.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="brand" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ConsoleDesignPattern.SingleSamsung">
+    <Position X="2.5" Y="7" Width="1.5" />
+    <AssociationLine Name="brand" Type="ConsoleDesignPattern.SingleSamsung" ManuallyRouted="true">
+      <Path>
+        <Point X="3.032" Y="8.68" />
+        <Point X="3.032" Y="8.93" />
+        <Point X="3.478" Y="8.93" />
+        <Point X="3.478" Y="8.68" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAEEAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SingleSamsung.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="brand" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ConsoleDesignPattern.LEDScreen">
+    <Position X="14.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>LEDScreen.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="ConsoleDesignPattern.IScreenType">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>IScreenType.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
