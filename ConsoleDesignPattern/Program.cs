@@ -25,7 +25,7 @@ namespace ConsoleDesignPattern
             //calls the GetPrice() which will return the prices of Apple devices
             Console.WriteLine(apple.GetPrices() + "\n");
             //calls the ToString() which returns the Apple class (because the constructor is private) as a string
-            Console.WriteLine(apple.ToString()+ "\n");
+            Console.WriteLine(apple.ToString()+ "\n ");
 
 
             //*******************************************Factory Section*************************************//
